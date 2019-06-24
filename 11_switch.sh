@@ -23,17 +23,3 @@ shift $((OPTIND-1))
 if [ -z "${l}" ]; then
     usage
 fi
-
-
-# Iteration Limit
-
-# Begin Loop 
-
-
-i=0
-
-until [ $i -lt $l ]
-do
-    echo $i
-    (($i++))
-done
