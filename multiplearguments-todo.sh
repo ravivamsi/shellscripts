@@ -2,8 +2,6 @@
 
 arguments=("$@")
 
-
-
 echo "Number of Arguments : $#"
 echo "All the Arguments : $@"
 
