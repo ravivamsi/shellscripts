@@ -1,3 +1,5 @@
+#! /bin/bash
+
 # Input Arguments: JSON Filename and Path
 # For JSON Object: $ sh 12_parsejson.sh -f ./resources/parsejson.json -p .body
 # For JSON Array: $ sh 12_parsejson.sh -f ./resources/parsejsonarray.json -p .[9].body
